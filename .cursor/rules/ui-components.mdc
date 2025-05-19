@@ -11,20 +11,20 @@ alwaysApply: false
 # UI Components and Styling
 
 ## UI Framework
-- Use Shadcn UI and Tailwind for components and styling
+- Use Tailwind for components and styling
 - Implement responsive design with Tailwind CSS using a mobile-first approach
 - Use `next/image` package for images
 
-## Install new Shadcn components
+## Install new Tailwind components
 
 ```sh
-pnpm dlx shadcn@latest add COMPONENT
+npm install tailwindcss @tailwindcss/vite
 ```
 
 Example:
 
 ```sh
-pnpm dlx shadcn@latest add progress
+npm install tailwindcss @tailwindcss/vite
 ```
 
 ## Data Fetching with SWR

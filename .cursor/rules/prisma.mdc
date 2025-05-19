@@ -18,4 +18,4 @@ This is how we import prisma in the project:
 import prisma from "@/utils/prisma";
 ```
 
-The prisma file is located at: `api/prisma/schema.prisma`.
+The prisma file is located at: `prisma/schema.prisma`.

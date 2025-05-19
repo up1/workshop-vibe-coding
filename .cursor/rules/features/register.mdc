@@ -32,7 +32,7 @@ POST /register
 The main files and directories for this are:
 
 - web/app/(app)/register/page.tsx
-- api/prisma/schema.prisma
+- prisma/schema.prisma
 
 The database models to look at are:
 - customers
