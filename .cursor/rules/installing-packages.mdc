@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: How to install packages
+globs: 
+alwaysApply: false
+---
+- Use `npm`.
+- Don't install in root. Install in `web` and `api` folder:
+
+```sh
+cd web
+npm install ...
+```

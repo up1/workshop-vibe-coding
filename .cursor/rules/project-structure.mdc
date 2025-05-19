@@ -1,0 +1,47 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: Project structure and file organization guidelines
+globs: 
+alwaysApply: false
+---
+# Project Structure
+- Fronrend
+- Backend
+
+## Main Structure
+
+- Frontend is in `web` folder
+- Backend is in `api` folder
+
+```tree
+.
+
+├── web/                       # Main frontend
+   ├── src/
+        ├── components/        # UI components
+        ├── api/               # Call REST API from backend
+        ├── utils/             # Utilities functions
+   
+
+├── api/                       # Main backend
+   ├── src/
+        ├── routes/            # Router for REST API with expressjs library
+        ├── controller/        # Controler functions with expressjs library that called from routes
+        ├── service/           # Business or service process that called from controller
+        ├── repository/        # Manage data from sqlite database that called from service
+        ├── utils/             # Utilities functions
+
+```
+
+## File Naming and Organization
+
+- Use kebab case for route directories (e.g., `api/hello-world/route`)
+- Use PascalCase for components (e.g. `components/Button.tsx`)
+- Tailwind CSS components are in `components/ui`
+- All other components are in `components/`
+- Colocate files in the folder where they're used unless they can be used across the app
+- If a component can be used in many places, place it in the `components` folder

@@ -1,0 +1,38 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: 
+globs: 
+alwaysApply: false
+---
+## Register
+
+This file explains the Register feature and how it's implemented.
+
+- Create new customers with username, password, firstname and lastname
+- Validate data both web and api
+  - all inputs must not empty
+- Password must hash with SHA-256 in database
+
+
+API Spec of Register feature
+
+POST /register
+{
+    "username": "plain text",
+    "password": "plain text",
+    "firstname": "plain text",
+    "lastname": "plain text"
+}
+
+
+The main files and directories for this are:
+
+- web/app/(app)/register/page.tsx
+- api/prisma/schema.prisma
+
+The database models to look at are:
+- customers

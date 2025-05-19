@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: Guidelines for implementing GET API routes in NodeJS and expressjs library
+globs: 
+alwaysApply: false
+---
+# GET API Route Guidelines
+
+Guidelines for implementing GET API routes in Next.js App Router:
+
+Basic Structure. Note how we auto generate the response type for use on the client:
+
+Example code
+```
+```
