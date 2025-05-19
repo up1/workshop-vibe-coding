@@ -1,0 +1,18 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: How to use database
+globs: 
+alwaysApply: false
+---
+# Database Usage
+
+We use SQlite.
+
+Install package
+```sh
+npm install -D sqlite3
+```

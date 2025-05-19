@@ -10,6 +10,10 @@
 * React + TypeScript
 ```
 $npm create vite@latest
+
+$cd web
+$npm install
+$npm run dev
 ```
 
 Run
@@ -28,4 +32,9 @@ $npx tsc --init
 Run 
 ```
 $npx ts-node src/index.ts
+```
+
+## 3. Start with AI
+```
+Start to develop register feature
 ```
