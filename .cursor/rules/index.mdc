@@ -5,7 +5,7 @@ alwaysApply: false
 ---
 ---
 description: 
-globs: **/*
+globs:
 alwaysApply: true
 ---
 # My Vibe Coding App - Master Rule Index

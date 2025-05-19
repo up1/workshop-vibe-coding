@@ -4,7 +4,7 @@ globs:
 alwaysApply: false
 ---
 ---
-description: 
+description: Register feature
 globs: 
 alwaysApply: false
 ---
